@@ -1,12 +1,12 @@
 # 💬 GOOLA and HOLA Chattime – QISCUS Web Developer Test
 
-![Preview UI](./src/assets/preview/GOOLA_HOLA_Chattime.png)
+![Preview UI](./GOOLA_HOLA_Chattime.png)
 
 ## Tentang Proyek
 
 Proyek ini merupakan hasil pengerjaan technical test dari **Dimas Oktavian Prasetyo** untuk posisi **Web Developer** di **QISCUS**.
 
-UI dirancang berdasarkan preview desain `GOOLA HOLA Chattime.png`, dengan fitur chatting:
+UI dirancang berdasarkan preview desain `GOOLA_HOLA_Chattime.png`, dengan fitur chatting:
 - Chat privat (1-on-1)
 - Grup chat
 - Preview pesan berupa teks, gambar, video, dan dokumen PDF
