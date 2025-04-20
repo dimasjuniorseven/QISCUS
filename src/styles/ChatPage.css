@@ -1,0 +1,250 @@
+:root {
+     --bg-light: #f1f5f9;
+     --text-light: #0f172a;
+     --bg-dark: #1e293b;
+     --text-dark: #f8fafc;
+     --bubble-light-left: #fef3c7;
+     --bubble-light-right: #d1fae5;
+     --bubble-dark-left: #475569;
+     --bubble-dark-right: #047857;
+     --bubble-text-dark: #f8fafc;
+   }
+   
+   .slider-container {
+     display: flex;
+     height: 100vh;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-color: var(--bg-light);
+     color: var(--text-light);
+     transition: background-color 0.4s ease, color 0.4s ease;
+   }
+   
+   .dark-mode {
+     background-color: var(--bg-dark);
+     color: var(--text-dark);
+   }
+   
+   .dark-mode .chat-area,
+   .dark-mode .chat-input input {
+     background-color: #1e293b;
+     color: var(--text-dark);
+   }
+   
+   .sidebar {
+     width: 25%;
+     background-color: #0f172a;
+     color: white;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transition: background-color 0.4s ease;
+   }
+   
+   .product-image {
+     width: 100px;
+     height: 100px;
+     object-fit: cover;
+     border-radius: 10px;
+   }
+   
+   .product-name {
+     margin-top: 10px;
+     text-align: center;
+   }
+   
+   .nav-buttons {
+     display: flex;
+     gap: 10px;
+     margin-top: 15px;
+   }
+   
+   .nav-buttons button {
+     background: #1d4ed8;
+     color: white;
+     padding: 6px 12px;
+     border: none;
+     border-radius: 6px;
+     transition: background-color 0.3s;
+   }
+   
+   .nav-buttons button:hover {
+     background-color: #2563eb;
+   }
+   
+   .toggle-mode {
+     margin-top: 20px;
+     background-color: #10b981;
+     color: white;
+     padding: 8px 12px;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+   }
+   
+   .toggle-mode:hover {
+     background-color: #059669;
+   }
+   
+   .chat-area {
+     width: 75%;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+   }
+   
+   .chat-header {
+     font-size: 22px;
+     font-weight: 600;
+     margin-bottom: 15px;
+   }
+   
+   .chat-body {
+     flex: 1;
+     overflow-y: auto;
+     display: flex;
+     flex-direction: column;
+     gap: 16px;
+     padding-right: 10px;
+     scroll-behavior: smooth;
+   }
+   
+   .chat-bubble {
+     max-width: 85%;
+     padding: 15px;
+     font-size: 17px;
+     border-radius: 14px;
+     background-color: #e0f2fe;
+     position: relative;
+     transition: background-color 0.4s ease, color 0.4s ease;
+     word-wrap: break-word;
+     line-height: 1.5;
+   }
+   
+   .chat-bubble.left {
+     align-self: flex-start;
+     background-color: var(--bubble-light-left);
+   }
+   
+   .chat-bubble.right {
+     align-self: flex-end;
+     background-color: var(--bubble-light-right);
+   }
+   
+   .dark-mode .chat-bubble.left {
+     background-color: var(--bubble-dark-left);
+     color: var(--bubble-text-dark);
+   }
+   
+   .dark-mode .chat-bubble.right {
+     background-color: var(--bubble-dark-right);
+     color: white;
+   }
+   
+   .sender-label {
+     font-size: 12px;
+     color: #6b7280;
+     margin-top: 5px;
+     display: block;
+   }
+   
+   .media {
+     max-width: 300px;
+     border-radius: 8px;
+     margin-top: 8px;
+   }
+   
+   .download-btn {
+     display: inline-block;
+     margin-top: 6px;
+     padding: 5px 10px;
+     background-color: #0ea5e9;
+     color: white;
+     font-size: 14px;
+     border-radius: 6px;
+     text-decoration: none;
+     transition: background-color 0.3s ease;
+   }
+   
+   .download-btn:hover {
+     background-color: #0284c7;
+   }
+   
+   .chat-input {
+     margin-top: 20px;
+   }
+   
+   .input-row {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+   }
+   
+   .chat-input input[type="text"] {
+     flex: 1;
+     padding: 12px;
+     font-size: 16px;
+     border: 1px solid #cbd5e1;
+     border-radius: 10px;
+     transition: background-color 0.3s, color 0.3s;
+   }
+   
+   .dark-mode .chat-input input[type="text"] {
+     border: 1px solid #475569;
+   }
+   
+   .chat-input button {
+     padding: 10px;
+     font-size: 16px;
+     background-color: #22c55e;
+     color: white;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+   }
+   
+   .chat-input button:hover {
+     background-color: #16a34a;
+   }
+   
+   .upload-btn {
+     background-color: #3b82f6;
+     font-size: 20px;
+     padding: 0 14px;
+     border-radius: 6px;
+     transition: background-color 0.3s;
+   }
+   
+   .upload-btn:hover {
+     background-color: #2563eb;
+   }
+
+   .product-description {
+     font-size: 14px;
+     margin-top: 8px;
+     text-align: center;
+     color: #d1d5db;
+   }
+   
+   .product-price {
+     font-weight: bold;
+     margin-top: 6px;
+     color: #93c5fd;
+   }
+   
+   .product-status {
+     font-size: 13px;
+     margin-top: 6px;
+   }
+   
+   .product-status.online {
+     color: #10b981;
+     font-weight: bold;
+   }
+   
+   .product-status.offline {
+     color: #fbbf24;
+     font-style: italic;
+   }

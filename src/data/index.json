@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "room": {
+        "name": "Product A",
+        "id": 12456,
+        "image_url": "https://img.idxchannel.com/images/idx/2024/11/05/iphone_16.jpg",
+        "participant": [
+          { "id": "admin@mail.com", "name": "Admin", "role": 0 },
+          { "id": "agent@mail.com", "name": "Agent A", "role": 1 },
+          { "id": "customer@mail.com", "name": "King Customer", "role": 2 }
+        ]
+      },
+      "comments": [
+        { "id": 885512, "type": "text", "message": "Selamat malam", "sender": "customer@mail.com" },
+        { "id": 885513, "type": "text", "message": "Malam", "sender": "agent@mail.com" },
+        { "id": 885514, "type": "text", "message": "Ada yang bisa saya bantu?", "sender": "agent@mail.com" },
+        { "id": 885515, "type": "text", "message": "Saya ingin mengirimkan bukti pembayaran", "sender": "customer@mail.com" },
+        { "id": 885516, "type": "text", "message": "Silahkan kirimkan lampiran bukti pembayarannya", "sender": "agent@mail.com" },
+        { "id": 885517, "type": "image", "message": "https://i.pinimg.com/736x/68/ed/dc/68eddcea02ceb29abde1b1c752fa29eb.jpg", "sender": "customer@mail.com" },
+        { "id": 885518, "type": "video", "message": "https://www.w3schools.com/html/mov_bbb.mp4", "sender": "agent@mail.com" },
+        { "id": 885519, "type": "pdf", "message": "http://repository.uinsu.ac.id/8611/1/Modul%20Perkuliahan%20PIK%20%283%29.pdf", "sender": "agent@mail.com" }
+      ]
+    }
+  ]
+}
