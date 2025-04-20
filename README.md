@@ -1,5 +1,7 @@
 # 💬 GOOLA and HOLA Chattime – QISCUS Web Developer Test
 
+![Preview UI](./src/assets/preview/GOOLA_HOLA_Chattime.png)
+
 ## Tentang Proyek
 
 Proyek ini merupakan hasil pengerjaan technical test dari **Dimas Oktavian Prasetyo** untuk posisi **Web Developer** di **QISCUS**.
